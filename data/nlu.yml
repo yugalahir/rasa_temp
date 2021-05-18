@@ -1,0 +1,33 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - helo
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - bye
+    - goodbye
+    - bye bye
+    - see you later
+
+- intent: yes_no
+  examples: |
+    - yes
+    - no
+    - y
+    - n
+    - 2222-20-22
+    - 2221-02-1
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
